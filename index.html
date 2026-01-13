@@ -7,7 +7,7 @@
 	<head>
 		<title>Rudy Huanca | Consultor Hinode & Agente de Viajes</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, user-scalable=yes" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -103,320 +103,320 @@
 				position: relative;
 				z-index: 5;
 			}
-/* Contenedor principal */
-.servicios-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+			/* Contenedor principal */
+			.servicios-container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 30px;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 15px;
+			}
 
-/* Tarjetas base */
-.servicio-card {
-    display: block;
-    background: rgba(0, 0, 0, 0.85);
-    border-radius: 15px;
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.3s ease;
-    flex: 1;
-    min-width: 300px;
-    max-width: 550px;
-    border: 2px solid transparent;
-    overflow: hidden;
-    position: relative;
-}
+			/* Tarjetas base */
+			.servicio-card {
+				display: block;
+				background: rgba(0, 0, 0, 0.85);
+				border-radius: 15px;
+				text-decoration: none;
+				color: inherit;
+				transition: all 0.3s ease;
+				flex: 1;
+				min-width: 300px;
+				max-width: 550px;
+				border: 2px solid transparent;
+				overflow: hidden;
+				position: relative;
+			}
 
-.servicio-inner {
-    padding: 30px;
-}
+			.servicio-inner {
+				padding: 30px;
+			}
 
-/* Estilos específicos para cada tarjeta */
-.card-hinode {
-    border-color: #751cec;
-}
+			/* Estilos específicos para cada tarjeta */
+			.card-hinode {
+				border-color: #751cec;
+			}
 
-.card-hinode:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(117, 28, 236, 0.4);
-    border-color: #a855f7;
-}
+			.card-hinode:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 15px 30px rgba(117, 28, 236, 0.4);
+				border-color: #a855f7;
+			}
 
-.card-viajes {
-    border-color: #8BC34A;
-}
+			.card-viajes {
+				border-color: #8BC34A;
+			}
 
-.card-viajes:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(139, 195, 74, 0.4);
-    border-color: #AED581;
-}
+			.card-viajes:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 15px 30px rgba(139, 195, 74, 0.4);
+				border-color: #AED581;
+			}
 
-/* Títulos */
-.servicio-card h3 {
-    color: #fff;
-    margin: 0 0 10px 0;
-    font-size: 22px;
-    border-left: 4px solid;
-    padding-left: 15px;
-    line-height: 1.3;
-}
+			/* Títulos */
+			.servicio-card h3 {
+				color: #fff;
+				margin: 0 0 10px 0;
+				font-size: 22px;
+				border-left: 4px solid;
+				padding-left: 15px;
+				line-height: 1.3;
+			}
 
-.card-hinode h3 {
-    border-color: #751cec;
-}
+			.card-hinode h3 {
+				border-color: #751cec;
+			}
 
-.card-viajes h3 {
-    border-color: #8BC34A;
-}
+			.card-viajes h3 {
+				border-color: #8BC34A;
+			}
 
-.servicio-card h4 {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 18px;
-    font-weight: normal;
-    margin: 0 0 20px 0;
-    padding-left: 19px;
-}
+			.servicio-card h4 {
+				color: rgba(255, 255, 255, 0.9);
+				font-size: 18px;
+				font-weight: normal;
+				margin: 0 0 20px 0;
+				padding-left: 19px;
+			}
 
-/* Texto y párrafos */
-.servicio-card p {
-    color: #ddd;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-size: 15px;
-}
+			/* Texto y párrafos */
+			.servicio-card p {
+				color: #ddd;
+				line-height: 1.6;
+				margin-bottom: 20px;
+				font-size: 15px;
+			}
 
-/* Grid de servicios */
-.servicios-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-    font-size: 14px;
-}
+			/* Grid de servicios */
+			.servicios-grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 12px;
+				margin: 20px 0;
+				font-size: 14px;
+			}
 
-.servicios-grid div {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px 12px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #fff;
-}
+			.servicios-grid div {
+				background: rgba(255, 255, 255, 0.1);
+				padding: 10px 12px;
+				border-radius: 8px;
+				display: flex;
+				align-items: center;
+				gap: 8px;
+				color: #fff;
+			}
 
-/* Highlight box */
-.highlight-box {
-    background: rgba(117, 28, 236, 0.15);
-    border-left: 3px solid #751cec;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
-}
+			/* Highlight box */
+			.highlight-box {
+				background: rgba(117, 28, 236, 0.15);
+				border-left: 3px solid #751cec;
+				padding: 15px;
+				border-radius: 8px;
+				margin: 20px 0;
+			}
 
-.highlight-box p {
-    margin: 0;
-    color: #fff;
-}
+			.highlight-box p {
+				margin: 0;
+				color: #fff;
+			}
 
-/* Beneficios */
-.beneficios {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 20px 0;
-}
+			/* Beneficios */
+			.beneficios {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+				margin: 20px 0;
+			}
 
-.beneficios span {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-}
+			.beneficios span {
+				background: rgba(255, 255, 255, 0.1);
+				padding: 8px 15px;
+				border-radius: 20px;
+				font-size: 14px;
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+			}
 
-.card-hinode .beneficios span {
-    background: rgba(117, 28, 236, 0.2);
-}
+			.card-hinode .beneficios span {
+				background: rgba(117, 28, 236, 0.2);
+			}
 
-.card-viajes .beneficios span {
-    background: rgba(139, 195, 74, 0.2);
-}
+			.card-viajes .beneficios span {
+				background: rgba(139, 195, 74, 0.2);
+			}
 
-/* Indicador de clic */
-.card-indicator {
-    text-align: center;
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: #fff;
-    font-size: 14px;
-    opacity: 0.8;
-}
+			/* Indicador de clic */
+			.card-indicator {
+				text-align: center;
+				margin-top: 25px;
+				padding-top: 15px;
+				border-top: 1px solid rgba(255, 255, 255, 0.1);
+				color: #fff;
+				font-size: 14px;
+				opacity: 0.8;
+			}
 
-.card-indicator i {
-    margin-left: 5px;
-    transition: transform 0.3s ease;
-}
+			.card-indicator i {
+				margin-left: 5px;
+				transition: transform 0.3s ease;
+			}
 
-.servicio-card:hover .card-indicator i {
-    transform: translateX(5px);
-}
+			.servicio-card:hover .card-indicator i {
+				transform: translateX(5px);
+			}
 
-/* ========== MEDIA QUERIES RESPONSIVOS ========== */
+			/* ========== MEDIA QUERIES RESPONSIVOS ========== */
 
-/* Tablets */
-@media (max-width: 1024px) {
-    .servicios-container {
-        gap: 20px;
-        padding: 0 20px;
-    }
-    
-    .servicio-card {
-        min-width: 280px;
-    }
-    
-    .servicios-grid {
-        grid-template-columns: 1fr;
-    }
-}
+			/* Tablets */
+			@media (max-width: 1024px) {
+				.servicios-container {
+					gap: 20px;
+					padding: 0 20px;
+				}
+				
+				.servicio-card {
+					min-width: 280px;
+				}
+				
+				.servicios-grid {
+					grid-template-columns: 1fr;
+				}
+			}
 
-/* Móviles grandes */
-@media (max-width: 768px) {
-    .servicios-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-    }
-    
-    .servicio-card {
-        width: 100%;
-        max-width: 100%;
-        min-width: unset;
-    }
-    
-    .servicio-inner {
-        padding: 25px 20px;
-    }
-    
-    #header h1 {
-        font-size: 2em;
-        padding: 0 10px;
-    }
-    
-    #header p {
-        padding: 0 10px;
-    }
-}
+			/* Móviles grandes */
+			@media (max-width: 768px) {
+				.servicios-container {
+					flex-direction: column;
+					align-items: center;
+					gap: 25px;
+				}
+				
+				.servicio-card {
+					width: 100%;
+					max-width: 100%;
+					min-width: unset;
+				}
+				
+				.servicio-inner {
+					padding: 25px 20px;
+				}
+				
+				#header h1 {
+					font-size: 2em;
+					padding: 0 10px;
+				}
+				
+				#header p {
+					padding: 0 10px;
+				}
+			}
 
-/* Móviles pequeños */
-@media (max-width: 480px) {
-    .servicio-inner {
-        padding: 20px 15px;
-    }
-    
-    .servicio-card h3 {
-        font-size: 19px;
-    }
-    
-    .servicio-card h4 {
-        font-size: 16px;
-    }
-    
-    .servicios-grid div {
-        padding: 8px 10px;
-        font-size: 13px;
-    }
-    
-    .beneficios {
-        gap: 8px;
-    }
-    
-    .beneficios span {
-        font-size: 12px;
-        padding: 6px 12px;
-    }
-    
-    .card-indicator {
-        font-size: 13px;
-    }
-}
+			/* Móviles pequeños */
+			@media (max-width: 480px) {
+				.servicio-inner {
+					padding: 20px 15px;
+				}
+				
+				.servicio-card h3 {
+					font-size: 19px;
+				}
+				
+				.servicio-card h4 {
+					font-size: 16px;
+				}
+				
+				.servicios-grid div {
+					padding: 8px 10px;
+					font-size: 13px;
+				}
+				
+				.beneficios {
+					gap: 8px;
+				}
+				
+				.beneficios span {
+					font-size: 12px;
+					padding: 6px 12px;
+				}
+				
+				.card-indicator {
+					font-size: 13px;
+				}
+			}
 
-/* Pantallas muy pequeñas */
-@media (max-width: 360px) {
-    .servicio-inner {
-        padding: 15px 12px;
-    }
-    
-    .servicio-card h3 {
-        font-size: 17px;
-    }
-    
-    .highlight-box {
-        padding: 12px;
-    }
-}
-#servicios {
-    margin: 40px auto;
-    width: 90%;
-    max-width: 1200px;
-}
+			/* Pantallas muy pequeñas */
+			@media (max-width: 360px) {
+				.servicio-inner {
+					padding: 15px 12px;
+				}
+				
+				.servicio-card h3 {
+					font-size: 17px;
+				}
+				
+				.highlight-box {
+					padding: 12px;
+				}
+			}
+			#servicios {
+				margin: 40px auto;
+				width: 90%;
+				max-width: 1200px;
+			}
 
-/* Contenedor flexible para recuadros */
-#servicios > div {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
+			/* Contenedor flexible para recuadros */
+			#servicios > div {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 20px;
+				justify-content: center;
+			}
 
-/* Estilos para los enlaces/recuadros */
-#servicios a {
-    flex: 1;
-    min-width: 300px;
-    max-width: 500px;
-    text-decoration: none;
-    color: inherit;
-}
+			/* Estilos para los enlaces/recuadros */
+			#servicios a {
+				flex: 1;
+				min-width: 300px;
+				max-width: 500px;
+				text-decoration: none;
+				color: inherit;
+			}
 
-/* Para móviles pequeños */
-@media screen and (max-width: 736px) {
-    #servicios a {
-        min-width: 100% !important;
-        width: 100% !important;
-        max-width: 100% !important;
-    }
-    
-    #header h1 {
-        font-size: 2.5em !important;
-    }
-    
-    #header p {
-        font-size: 1em !important;
-    }
-}
+			/* Para móviles pequeños */
+			@media screen and (max-width: 736px) {
+				#servicios a {
+					min-width: 100% !important;
+					width: 100% !important;
+					max-width: 100% !important;
+				}
+				
+				#header h1 {
+					font-size: 2.5em !important;
+				}
+				
+				#header p {
+					font-size: 1em !important;
+				}
+			}
 
-/* Para móviles muy pequeños */
-@media screen and (max-width: 480px) {
-    #servicios {
-        width: 95% !important;
-        margin: 20px auto !important;
-    }
-    
-    #servicios a {
-        padding: 15px !important;
-    }
-    
-    #header h1 {
-        font-size: 2em !important;
-        padding: 0 10px;
-    }
-}
+			/* Para móviles muy pequeños */
+			@media screen and (max-width: 480px) {
+				#servicios {
+					width: 95% !important;
+					margin: 20px auto !important;
+				}
+				
+				#servicios a {
+					padding: 15px !important;
+				}
+				
+				#header h1 {
+					font-size: 2em !important;
+					padding: 0 10px;
+				}
+			}
 			
 		</style>
 	</head>
@@ -558,6 +558,38 @@
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			// ========== HABILITAR ZOOM EN MÓVILES ==========
+			document.addEventListener('DOMContentLoaded', function() {
+				// Permitir zoom con gestos de pellizco
+				document.addEventListener('touchmove', function(e) {
+					if (e.touches.length > 1) {
+						e.preventDefault();
+					}
+				}, { passive: false });
+				
+				// Asegurar que el viewport permita zoom
+				var viewport = document.querySelector('meta[name="viewport"]');
+				if (viewport) {
+					viewport.setAttribute('content', 
+						'width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5, user-scalable=yes');
+				}
+				
+				// Remover cualquier estilo que bloquee zoom
+				var style = document.createElement('style');
+				style.textContent = `
+					* {
+						-webkit-user-select: auto !important;
+						user-select: auto !important;
+						-webkit-text-size-adjust: 100% !important;
+						text-size-adjust: 100% !important;
+					}
+					
+					body {
+						touch-action: pan-x pan-y !important;
+					}
+				`;
+				document.head.appendChild(style);
+			});
 		</script>
 	</body>
 </html>
